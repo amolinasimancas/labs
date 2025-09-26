@@ -1,0 +1,19 @@
+# Implementación sin list comprehension
+x = 1
+y = 1
+z = 1
+n = 2
+respuesta = []
+
+for i in range (x+1):
+    for j in range (y+1):
+        for k in range (z+1):
+            if i+j+k != n:
+                respuesta.append([i,j,k])
+
+print(respuesta)
+
+# Implementación con list comprehension
+respuesta = [[i, j, k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k != n]
+
+print(respuesta)
