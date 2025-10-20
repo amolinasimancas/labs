@@ -4,7 +4,8 @@ import random
 import re
 import sys
 
-n = int(input("Ingrese un número entero: ").strip())
+n = int(input("Ingrese un número entero: ").strip()) 
+# .strip() elimina los espacios antes y después de un texto
 
 if n >= 1 and n <= 100:
     print("El número ingresado es válido.")
