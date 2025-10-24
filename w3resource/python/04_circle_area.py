@@ -1,7 +1,7 @@
 import math
 
-r = 1.1
-area = math.pi * r**2
+r = float(input('Inserte el radio de la circunferencia: '))
+area = round(math.pi * r**2, 2)
 
-print("r = ", r)
-print("Area = ", area)
+print("La circunferencia de radio = ", r)
+print("Tiene área de = ", area)
