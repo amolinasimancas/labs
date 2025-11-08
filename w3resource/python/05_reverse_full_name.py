@@ -1,5 +1,3 @@
-name = input("Introduce first name: ")
-last_name = input("Introduce last name: ")
+name, last_name = input("Introduce first name: "), input("Introduce last name: ")
 
-full_name = str(list(name + " " + last_name).reverse)
-print(full_name)
+print(f'Hello {last_name} {name}')
