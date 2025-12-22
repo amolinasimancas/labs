@@ -11,6 +11,7 @@
     pkgs.python311Packages.pip
     pkgs.nodejs_20
     pkgs.python311Packages.conda
+    # pkgs.python312Packages.google-genai
     # pkgs.nodePackages.nodemon
   ];
 
